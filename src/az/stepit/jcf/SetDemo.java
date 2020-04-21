@@ -7,7 +7,6 @@ import java.util.TreeSet;
 
 public class SetDemo {
     public static void main(String[] args) {
-
         Set<String> hashSet = new HashSet<>();
         hashSet.add("a");
         hashSet.add("c");

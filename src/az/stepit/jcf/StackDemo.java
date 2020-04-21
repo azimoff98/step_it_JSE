@@ -2,6 +2,7 @@ package az.stepit.jcf;
 
 import java.util.Stack;
 
+//FILO
 public class StackDemo {
     public static void main(String[] args) {
 
