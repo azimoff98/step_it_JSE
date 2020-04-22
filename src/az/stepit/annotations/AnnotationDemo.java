@@ -1,12 +1,12 @@
 package az.stepit.annotations;
 
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 
 public class AnnotationDemo {
 
     public static void main(String[] args){
         Class<Employee> reflected = Employee.class;
-
 
         Field[] fields = reflected.getDeclaredFields();
 
