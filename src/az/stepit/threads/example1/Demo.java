@@ -1,5 +1,17 @@
 package az.stepit.threads.example1;
 
+/**
+ * ForeGround and BackGround threads in java.
+ *
+ * There are two types of threads in java.
+ * First in User threads and second is Daemon threads.
+ * Users threads act as ForeGround threads and Daemon threads
+ * act as BackGround threads. In java all threads are
+ * ForeGround by default.
+ * If we want to mark Thread as daemon
+ * we should thread.setDaemon(true);
+ *
+ */
 public class Demo {
     public static void main(String[] args) {
         MyThread myThread = new MyThread();
